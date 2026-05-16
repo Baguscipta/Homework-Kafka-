@@ -1,5 +1,7 @@
 [
-  {"id": 1, "event": "user.signup", "user": {"id": 101, "name": "Alice"}},
-  {"id": 2, "event": "user.login", "user": {"id": 102, "name": "Bob"}},
-  {"id": 3, "event": "order.created", "order": {"id": 9001, "amount": 79.9}}
+  {"id": 1, "user_id": "user_1", "event_type": "user.signup", "details": {"name": "Alice"}},
+  {"id": 2, "user_id": "user_2", "event_type": "user.login", "details": {"name": "Bob"}},
+  {"id": 3, "user_id": "user_3", "event_type": "order.created", "details": {"amount": 79.9}},
+  {"id": 4, "user_id": "user_1", "event_type": "order.completed", "details": {"amount": 120.5}},
+  {"id": 5, "user_id": "user_2", "event_type": "user.logout", "details": {"duration_minutes": 45}}
 ]
