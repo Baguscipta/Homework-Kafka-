@@ -1,0 +1,5 @@
+[
+  {"id": 1, "event": "user.signup", "user": {"id": 101, "name": "Alice"}},
+  {"id": 2, "event": "user.login", "user": {"id": 102, "name": "Bob"}},
+  {"id": 3, "event": "order.created", "order": {"id": 9001, "amount": 79.9}}
+]
